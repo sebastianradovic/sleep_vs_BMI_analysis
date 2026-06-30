@@ -42,33 +42,24 @@ The analysis included:
 
 ## Results
 
-### Figure 1. Average Sleep Duration by BMI Category
+## Figure 1. Average Sleep Duration by BMI Category
 
-
-
-Average sleep duration was compared across BMI categories using a bar chart.
+![Average Sleep Duration](sleep_vs_BMI_barchart.png)
 
 ---
 
-### Figure 2. Distribution of Sleep Duration by BMI Category
+## Figure 2. Distribution of Sleep Duration by BMI Category
 
-
-
-A boxplot was used to visualize the distribution of sleep duration, including the median, interquartile range, and potential outliers.
+![Sleep Distribution](sleep_vs_BMI_boxplot.png)
 
 ---
 
-### Figure 3. Distribution of Sleep Duration by BMI Category and Gender
+## Figure 3. Distribution of Sleep Duration by BMI Category and Gender
 
-
-Faceted boxplots were used to compare sleep distributions across BMI categories separately for males and females.
-
----
-
+![Sleep Distribution by Gender](sleep_vs_BMI_gender_boxplot.png)
 ## Summary Statistics
 
 The complete summary statistics table is available here:
-
 
 ---
 
