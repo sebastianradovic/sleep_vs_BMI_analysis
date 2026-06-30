@@ -53,15 +53,22 @@ The analysis included:
 ![Sleep Distribution](sleep_vs_BMI_boxplot.png)
 
 ---
-
-## Figure 3. Distribution of Sleep Duration by BMI Category and Gender
-
-![Sleep Distribution by Gender](sleep_vs_BMI_gender_boxplot.png)
 ## Summary Statistics
 
 The complete summary statistics table is available here:
 
+| BMI Category | Sample Size | Mean Sleep | Median | SD | Q1 | Q3 | IQR |
+|--------------|------------:|-----------:|--------:|---:|---:|---:|----:|
+| Underweight | 157 | 7.22 | 7 | 1.42 | 6 | 8 | 2 |
+| Healthy Weight | 2359 | 7.00 | 7 | 1.33 | 6 | 8 | 2 |
+| Overweight | 2489 | 6.92 | 7 | 1.27 | 6 | 8 | 2 |
+| Obese | 2678 | 685 | 7 | 1.42 | 6 | 8 | 2 |
 ---
+
+## Figure 3. Distribution of Sleep Duration by BMI Category and Gender
+
+![Sleep Distribution by Gender](sleep_vs_BMI_gender_boxplot.png)
+
 
 ## Skills Demonstrated
 
