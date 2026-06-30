@@ -11,8 +11,9 @@ install.packages("NHANES")
 library(NHANES)
 View(NHANES)
 
-# 2. Explore variables in data set
+# 2. Explore variables in data set and reorder Gender
 names(NHANES)
+
 
 # 3. Make a smaller data set with only the variables I need
 sleep_bmi_data <- NHANES %>%
@@ -129,15 +130,16 @@ sleep_vs_BMI_gender_boxplot <- ggplot(sleep_bmi_data, aes(x = BMI_category,
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5)) +
   theme(legend.position = "none") +
-  facet_wrap(~Gender)
+  facet_wrap(
+    ~Gender,
+    labeller = labeller(Gender = c(
+      "male" = "Male",
+      "female" = "Female"
+    ))
+  )
+
 
 sleep_vs_BMI_gender_boxplot
-
-# 13. Reorder gender category
-sleep_bmi_data <- sleep_bmi_data %>% 
-  mutate(Gender = factor(Gender,
-                         levels = c("male", "female"),
-                         labels = c("Male", "Female")))
 
 # 14. Save plots using ggsave
 ggsave("sleep_vs_BMI_barchart.png",
