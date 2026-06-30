@@ -42,33 +42,50 @@ The analysis included:
 
 ## Results
 
-## Figure 1. Average Sleep Duration by BMI Category
+### Figure 1. Average Sleep Duration by BMI Category
 
 ![Average Sleep Duration](sleep_vs_BMI_barchart.png)
 
----
-
-## Figure 2. Distribution of Sleep Duration by BMI Category
-
-![Sleep Distribution](sleep_vs_BMI_boxplot.png)
+Average sleep duration showed a slight downward trend across BMI categories, with individuals in higher BMI categories reporting fewer hours of sleep on average. However, the differences between groups were relatively small. This figure is descriptive and cannot determine whether the observed differences are statistically significant.
 
 ---
+
+### Figure 2. Distribution of Sleep Duration by BMI Category
+
+![Distribution of Sleep Duration](sleep_vs_BMI_boxplot.png)
+
+The boxplot supports the trend observed in the bar chart, with slightly lower median sleep duration in higher BMI categories. The distributions overlapped substantially, and the interquartile ranges were similar across all BMI categories, suggesting that variability in sleep duration was relatively consistent among the groups.
+
 ## Summary Statistics
 
-The complete summary statistics table is available here:
+The table below provides descriptive statistics for sleep duration within each BMI category and complements the distribution shown in Figure 2.
 
 | BMI Category | Sample Size | Mean Sleep | Median | SD | Q1 | Q3 | IQR |
 |--------------|------------:|-----------:|--------:|---:|---:|---:|----:|
 | Underweight | 157 | 7.22 | 7 | 1.42 | 6 | 8 | 2 |
 | Healthy Weight | 2359 | 7.00 | 7 | 1.33 | 6 | 8 | 2 |
 | Overweight | 2489 | 6.92 | 7 | 1.27 | 6 | 8 | 2 |
-| Obese | 2678 | 685 | 7 | 1.42 | 6 | 8 | 2 |
+| Obese | 2678 | 6.85 | 7 | 1.42 | 6 | 8 | 2 |
+
 ---
 
-## Figure 3. Distribution of Sleep Duration by BMI Category and Gender
+### Figure 3. Distribution of Sleep Duration by BMI Category and Gender
 
-![Sleep Distribution by Gender](sleep_vs_BMI_gender_boxplot.png)
+![Distribution of Sleep Duration by Gender](sleep_vs_BMI_gender_boxplot.png)
 
+When separated by gender, males and females displayed very similar patterns across BMI categories. Both groups showed a slight decrease in median sleep duration as BMI category increased, while the overall distributions remained highly overlapping. Although the number and location of outliers varied slightly between genders, the overall relationship between BMI and sleep duration was consistent.
+
+---
+
+## Key Findings
+
+- Average sleep duration decreased slightly as BMI category increased.
+- The differences in sleep duration between BMI categories were relatively small.
+- Sleep duration distributions were similar across BMI categories and showed substantial overlap.
+- Similar patterns were observed among both males and females.
+- Additional statistical analyses would be required to determine whether the observed differences are statistically significant.
+
+---
 
 ## Skills Demonstrated
 
@@ -87,8 +104,8 @@ The complete summary statistics table is available here:
 
 Potential extensions of this project include:
 
-- Statistical hypothesis testing
-- Linear regression
+- Statistical hypothesis testing (e.g., ANOVA)
+- Multiple linear regression
 - Logistic regression
 - Additional demographic comparisons
 - Interactive visualizations
@@ -97,4 +114,11 @@ Potential extensions of this project include:
 
 ## Author
 
-Sebastian Radovic
+**Sebastian Radovic**
+
+Bachelor of Health Science
+
+Master of Public Health (In Progress)
+
+Interested in data analytics, epidemiology, and public health research.
+---
