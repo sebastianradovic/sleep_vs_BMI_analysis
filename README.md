@@ -58,7 +58,7 @@ The boxplot supports the trend observed in the bar chart, with slightly lower me
 
 ## Summary Statistics
 
-The table below provides descriptive statistics for sleep duration within each BMI category and complements the distribution shown in Figure 2.
+The table below provides descriptive statistics for sleep duration within each BMI category and complements the distribution shown in Figure 2. The summary statistics are also available as a downloadable CSV file in `results/sleep_summary_table.csv`.
 
 | BMI Category | Sample Size | Mean Sleep | Median | SD | Q1 | Q3 | IQR |
 |--------------|------------:|-----------:|--------:|---:|---:|---:|----:|
