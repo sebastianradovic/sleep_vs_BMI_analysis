@@ -1,0 +1,5 @@
+"BMI_category","Sample_Size","Mean_Sleep_Hours","Median_Sleep_Hours","SD_Sleep_Hours","Q1_Sleep_Hours","Q3_Sleep_Hours","IQR_Sleep_Hours"
+"Underweight",157,7.22,7,1.42,6,8,2
+"Healthy Weight",2359,7,7,1.33,6,8,2
+"Overweight",2489,6.92,7,1.27,6,8,2
+"Obese",2678,6.85,7,1.42,6,8,2
